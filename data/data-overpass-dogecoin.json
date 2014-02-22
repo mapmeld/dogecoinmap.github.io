@@ -1,1 +1,122 @@
-[{"city":"EC2A 3DT London","addr":"Rivington Street ","title":"Burger Bear","lon":-0.0834693,"phone":"+44 7805 903779","web":"http://burgerbear.co.uk/","lat":51.5261252,"type":"node","id":2552515557,"icon":"food_restaurant"},{"city":"26100 Weifang","addr":"\u4e1c\u98ce\u897f\u8857 D\u014dngf\u0113ng d\u014dngji\u0113 27","title":"Charlie McRae Photography","lon":119.1058626,"phone":"13465725196","web":"http://charliemcrae.com","lat":36.7137657,"desc":"Photography and fine art prints","type":"node","id":2587463864,"icon":"dogecoin"},{"city":"71-297 Szczecin","addr":"Genera\u0142a Stefana Grota-Roweckiego 14b","title":"Aeropix - Fotografia lotnicza","lon":14.4961568,"web":"http://aeropix.pl","lat":53.4370202,"type":"node","id":2638258398,"icon":"dogecoin"},{"city":" Fontib\u00f3n","addr":"Calle 25F 84B-85","title":"Bitcoin Muffin","lon":-74.1201082,"lat":4.6737386,"type":"node","id":2643289134,"icon":"food_cafe"},{"city":"63143 St. Louis","addr":"Sutton Boulevard 2709","title":"Strange Donuts","lon":-90.3200197,"lat":38.6123657,"type":"node","id":2654002507,"icon":"food_restaurant"},{"city":" Superior","addr":"River St. 207","title":"Mineral Pharmacy","lon":-114.8917333,"lat":47.1937984,"type":"node","id":2657235877,"icon":"health_pharmacy"},{"title":"Crypto Brokerage","lon":-110.9522154,"phone":"520-730-1042","lat":32.2249265,"type":"node","id":2681037995,"icon":"dogecoin"},{"city":"94588 pleasanton","addr":"Rheem Drive 2150","title":"Oam Studios","lon":-121.87503,"phone":"9259894756","web":"http://www.oamstudios.com","lat":37.6852425,"type":"way","id":259475638,"icon":"dogecoin"},{"city":"E1 6SB London","addr":"Brick Lane ","title":"BIT Bourbon Steam Burgers (in Sunday Up Market)","lon":-0.0719183,"web":"https://www.facebook.com/bitburgers/","lat":51.5203277,"type":"way","id":259672074,"icon":"food_restaurant"},{"city":"76182 North Richland Hills","addr":"Precinct Line Road 8245","title":"EMC Express Care","lon":-97.1882719,"phone":"817 503 8800","web":"http://emcexpresscare.com/","lat":32.9059854,"type":"way","id":260288999,"icon":"health_hospital"}]
+[
+  {
+    "addr":"Sutton Boulevard 2709",
+    "city":"63143 St. Louis",
+    "icon":"food_restaurant",
+    "id":2654002507,
+    "lat":38.6123657,
+    "lon":-90.3200197,
+    "physical":true,
+    "title":"Strange Donuts",
+    "type":"node"
+  },
+  {
+    "addr":"Rivington Street ",
+    "city":"EC2A 3DT London",
+    "icon":"food_restaurant",
+    "id":2552515557,
+    "lat":51.5261252,
+    "lon":-0.0834693,
+    "phone":"+44 7805 903779",
+    "physical":true,
+    "title":"Burger Bear",
+    "type":"node",
+    "web":"http://burgerbear.co.uk/"
+  },
+  {
+    "addr":"Precinct Line Road 8245",
+    "city":"76182 North Richland Hills",
+    "icon":"health_hospital",
+    "id":260288999,
+    "lat":32.9059854,
+    "lon":-97.1882719,
+    "phone":"817 503 8800",
+    "physical":true,
+    "title":"EMC Express Care",
+    "type":"way",
+    "web":"http://emcexpresscare.com/"
+  },
+  {
+    "addr":"Brick Lane ",
+    "city":"E1 6SB London",
+    "icon":"food_restaurant",
+    "id":259672074,
+    "lat":51.5203277,
+    "lon":-0.0719183,
+    "physical":true,
+    "title":"BIT Bourbon Steam Burgers (in Sunday Up Market)",
+    "type":"way",
+    "web":"https://www.facebook.com/bitburgers/"
+  },
+  {
+    "icon":"dogecoin",
+    "id":2681037995,
+    "lat":32.2249265,
+    "lon":-110.9522154,
+    "phone":"520-730-1042",
+    "physical":true,
+    "title":"Crypto Brokerage",
+    "type":"node"
+  },
+  {
+    "addr":"Calle 25F 84B-85",
+    "city":" Fontib\u00f3n",
+    "icon":"food_cafe",
+    "id":2643289134,
+    "lat":4.6737386,
+    "lon":-74.1201082,
+    "physical":true,
+    "title":"Bitcoin Muffin",
+    "type":"node"
+  },
+  {
+    "addr":"Rheem Drive 2150",
+    "city":"94588 pleasanton",
+    "icon":"dogecoin",
+    "id":259475638,
+    "lat":37.6852425,
+    "lon":-121.87503,
+    "phone":"9259894756",
+    "physical":true,
+    "title":"Oam Studios",
+    "type":"way",
+    "web":"http://www.oamstudios.com"
+  },
+  {
+    "addr":"\u4e1c\u98ce\u897f\u8857 D\u014dngf\u0113ng d\u014dngji\u0113 27",
+    "city":"26100 Weifang",
+    "desc":"Photography and fine art prints",
+    "icon":"dogecoin",
+    "id":2587463864,
+    "lat":36.7137657,
+    "lon":119.1058626,
+    "phone":"13465725196",
+    "physical":true,
+    "title":"Charlie McRae Photography",
+    "type":"node",
+    "web":"http://charliemcrae.com"
+  },
+  {
+    "addr":"Genera\u0142a Stefana Grota-Roweckiego 14b",
+    "city":"71-297 Szczecin",
+    "icon":"dogecoin",
+    "id":2638258398,
+    "lat":53.4370202,
+    "lon":14.4961568,
+    "physical":true,
+    "title":"Aeropix - Fotografia lotnicza",
+    "type":"node",
+    "web":"http://aeropix.pl"
+  },
+  {
+    "addr":"River St. 207",
+    "city":" Superior",
+    "icon":"health_pharmacy",
+    "id":2657235877,
+    "lat":47.1937984,
+    "lon":-114.8917333,
+    "physical":true,
+    "title":"Mineral Pharmacy",
+    "type":"node"
+  }
+]
