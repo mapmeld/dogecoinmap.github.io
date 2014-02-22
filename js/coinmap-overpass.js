@@ -2,6 +2,9 @@ function coinmap_populate_overpass(cluster, coin) {
 	coin = coin.toLowerCase();
 	$.getJSON('data/data-overpass-' + coin + '.json', function(data) {
         $.each(data, function(key, val) {
+        	if(val['physical'] === undefined || val['physical'] === false){
+	        	return;
+	        }
 			var lat = val['lat'];
 			var lon = val['lon'];
 			var title = val['title'];
