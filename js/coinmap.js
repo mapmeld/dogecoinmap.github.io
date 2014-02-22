@@ -2,6 +2,11 @@ var knownLanguages = ["cz","de","en","it","jp","pt_br","ru","sk"];
 
 function coinmap() {
 
+	var tileDoge = L.tileLayer('http://{s}.tiles.mapbox.com/v3/mapmeld.hbck5po3/{z}/{x}/{y}.png', {
+		attribution: 'Data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, Tiles &copy; MapBox',
+		maxZoom: 18
+	});
+
 	var tileOSM = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		attribution: 'Data &copy; by <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>.',
 		maxZoom: 18
@@ -39,7 +44,7 @@ function coinmap() {
 	for (var i = 0; i < coins.length; i++) {
 		coinmap_populate_overpass(coin_clusters[coins[i]], coins[i]);
 	}
-	var map_layers = [tileMapQuest];
+	var map_layers = [tileDoge];
 	map_layers.push(coin_clusters[coins[0]]); // enable just first coin
 
 	var map = L.map('map', {
@@ -50,6 +55,7 @@ function coinmap() {
 	});
 
 	var layers = L.control.layers({
+		"Doge": tileDoge,
 		"OpenStreetMap": tileOSM,
 		"MapQuestOpen": tileMapQuest,
 		"MapQuestOpenAerial": tileMapQuestAerial,
